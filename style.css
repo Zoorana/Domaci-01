@@ -1,0 +1,22 @@
+h1 {
+    color: gray;
+    font-size: 28px;
+    text-align: center;
+}
+
+th {
+    border: 2px solid black;
+   
+}
+
+table {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-collapse: collapse;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: #E9ECEF;
+}
